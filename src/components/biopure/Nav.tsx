@@ -3,8 +3,8 @@ import { Leaf } from "lucide-react";
 const links = [
   { href: "#dashboard", label: "Dashboard" },
   { href: "#analytics", label: "Analytics" },
+  { href: "#twin", label: "Digital Twin" },
   { href: "#ai", label: "AI" },
-  { href: "#team", label: "Team" },
 ];
 
 export function Nav() {
