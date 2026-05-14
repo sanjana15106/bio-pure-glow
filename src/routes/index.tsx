@@ -10,7 +10,7 @@ import { AIPanel } from "@/components/biopure/AIPanel";
 import { IoTPanel } from "@/components/biopure/IoTPanel";
 import { Alerts } from "@/components/biopure/Alerts";
 import { Sustainability } from "@/components/biopure/Sustainability";
-import { Team } from "@/components/biopure/Team";
+import { DigitalTwin } from "@/components/biopure/DigitalTwin";
 import { Footer } from "@/components/biopure/Footer";
 
 export const Route = createFileRoute("/")({
@@ -60,12 +60,12 @@ function Index() {
         </div>
       </section>
 
+      <DigitalTwin />
       <Analytics />
       <div id="ai"><AIPanel /></div>
       <IoTPanel />
       <Alerts />
       <Sustainability />
-      <div id="team"><Team /></div>
       <Footer />
     </div>
   );
