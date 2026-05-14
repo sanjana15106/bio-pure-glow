@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "BioPure" },
+      { name: "description", content: "BioPure Dynamics is an AI-powered platform simulating an intelligent algae-based carbon capture and air purification system." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "BioPure" },
+      { property: "og:description", content: "BioPure Dynamics is an AI-powered platform simulating an intelligent algae-based carbon capture and air purification system." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "BioPure" },
+      { name: "twitter:description", content: "BioPure Dynamics is an AI-powered platform simulating an intelligent algae-based carbon capture and air purification system." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e5675219-9d04-4048-b678-532f5cd6ebc4/id-preview-1001b9cf--5b9eb6ef-4f94-4b64-836c-b50269c8d7d3.lovable.app-1778778007136.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e5675219-9d04-4048-b678-532f5cd6ebc4/id-preview-1001b9cf--5b9eb6ef-4f94-4b64-836c-b50269c8d7d3.lovable.app-1778778007136.png" },
     ],
     links: [
       {
