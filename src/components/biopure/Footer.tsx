@@ -23,7 +23,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 pt-6 border-t border-primary/10 flex flex-col sm:flex-row justify-between gap-2 text-xs text-muted-foreground font-mono">
-          <span>© 2026 Bright Minds. All systems nominal.</span>
+          <span>© 2026 BioPure Systems. All systems nominal.</span>
           <span>v1.0.0 · ESP32 firmware build 240514</span>
         </div>
       </div>
