@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, ResponsiveContainer, XAxis, YAxis, Tooltip, CartesianGrid, Area, AreaChart } from "recharts";
 import { SectionHeading } from "./SystemFlow";
+import { HistoryTimeline } from "./HistoryTimeline";
 
 const COLORS = ["var(--neon)", "var(--cyan-glow)", "oklch(0.65 0.18 165)", "oklch(0.78 0.18 120)"];
 
@@ -115,6 +116,8 @@ export function Analytics() {
             </ResponsiveContainer>
           </ChartCard>
         </div>
+
+        <HistoryTimeline />
       </div>
     </section>
   );

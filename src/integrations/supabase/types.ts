@@ -14,7 +14,45 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      sensor_data: {
+        Row: {
+          aqi: number
+          co2_in: number
+          co2_out: number
+          efficiency: number
+          humidity: number
+          id: string
+          o2: number
+          pm25: number
+          recorded_at: string
+          temperature: number
+        }
+        Insert: {
+          aqi: number
+          co2_in: number
+          co2_out: number
+          efficiency: number
+          humidity: number
+          id?: string
+          o2: number
+          pm25: number
+          recorded_at?: string
+          temperature: number
+        }
+        Update: {
+          aqi?: number
+          co2_in?: number
+          co2_out?: number
+          efficiency?: number
+          humidity?: number
+          id?: string
+          o2?: number
+          pm25?: number
+          recorded_at?: string
+          temperature?: number
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
